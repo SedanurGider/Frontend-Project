@@ -1,0 +1,53 @@
+html{
+    background: url(image/Adsız.jpg) no-repeat center; 
+    background-size: cover;
+    position: relative;
+  }
+  *{
+    color: #ffffffcc;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 3em;
+    text-align:center;
+    color:#ffb400;
+  }
+
+  .profile-photo{
+    border-radius: 40px;
+    width: 95%;
+    height: 105%;
+    padding-left:15px;
+   
+  }
+  .content-area{
+      display: grid;
+      align-items: center; 
+      grid-template-columns: 2fr 1.4fr 1.4fr 1fr;
+      text-align:center;
+  }
+   .education img{
+    width:70px ;
+    height:70px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+
+  footer{
+    text-align: right;
+    margin-right: 20px;
+  }
+
+  .social-links li {
+    list-style: none; 
+     Display:inline;
+     margin-left: 5px;
+  }
+  
+.fa-twitter{
+  color: #00acee ;
+}
+

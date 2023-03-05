@@ -1,53 +1,103 @@
 html{
-    background: url(image/Adsız.jpg) no-repeat center; 
-    background-size: cover;
-    position: relative;
-  }
-  *{
-    color: #ffffffcc;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  }
+      background: url(image/background2.jpg) no-repeat center; 
+      background-size: cover;
+      position: relative;
   
-  h1 {
-    width: 100%;
-    font-weight: 500;
-    font-size: 3em;
-    text-align:center;
-    color:#ffb400;
+  }
+  * {
+      color: #ffffffcc;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
 
-  .profile-photo{
-    border-radius: 40px;
-    width: 95%;
-    height: 105%;
-    padding-left:15px;
-   
+  h1 {
+      width: 100%;
+      font-weight: 500;
+      font-size: 3em;
+      text-align:center;
+      color:#ffffffd6;
   }
+
+  h3{
+      font-size: xx-large;
+      color: #ffb400;
+      margin: 1%;
+  }
+
+  h4{
+    font-size: x-large;
+    color: #ffb400;
+    margin: 1% ;
+  }
+  p{
+    font-size: larger;
+    padding-bottom: 2%;
+  }
+
+  #profile-photo {
+      border-radius: 50%;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 20%;
+      height:20%;
+      padding:5%;
+    }
+
+  
   .content-area{
-      display: grid;
+      display: -moz-grid;
       align-items: center; 
-      grid-template-columns: 2fr 1.4fr 1.4fr 1fr;
+      grid-template-columns:  2fr 2fr ;
+      text-align:center;
+      margin-top: 10%;
+      margin-left:10%;
+      margin-right:10%;
+      margin-bottom:2%;
+      border: 2px solid #ffb400;
+      border-radius: 20px;
+      background-color: #2f2f2f;
+      
+  }
+  
+  #TR-flag{
+      width:30px;
+      height:18px;
+  }
+
+  #USA-flag{
+      width:30px;
+      height:18px;
+  }
+
+  .education-area{
       text-align:center;
   }
-   .education img{
-    width:70px ;
-    height:70px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+   
+  .education-area img{
+      width: 70px;
+      height:70px;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    
   }
 
   footer{
-    text-align: right;
-    margin-right: 20px;
+      text-align: right;
+      padding: 2%;
+      padding-top: 1%;
   }
 
   .social-links li {
-    list-style: none; 
-     Display:inline;
-     margin-left: 5px;
+      list-style: none; 
+      Display:inline;
+      margin:1%;
   }
   
+  .social-links ul{
+    margin-top: 1%;
+    padding-right: 1%;
+  }
 .fa-twitter{
-  color: #00acee ;
+      color: #00acee ;
 }
 
